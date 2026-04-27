@@ -2,78 +2,41 @@
 # Dependencies
 node_modules/
 
-# Build artifacts
-dist/
-
-# Logs
-*.log
-
-# Environment variables
+# Environment
 .env
 .env.local
 .env.*
 
-# IDE specific
+# Logs and temp files
+*.log
+*.tmp
+
+# Editors
 .vscode/
 .idea/
 
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Temporary files
-*.tmp
-*.swp
-*.swo
-
-# Python cache
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+.Python
+venv/
+.venv/
+env/
+ENV/
 
-# Coverage reports
+# Build artifacts
+dist/
+build/
+*.egg-info/
+.coverage
 coverage/
 htmlcov/
-.coverage
-
-# Package lock files
-package-lock.json
-
-# MyPy cache
+.pytest_cache/
 .mypy_cache/
 
-# PyTest cache
-.pytest_cache/
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
-
-# Vite/Rollup build artifacts
-vite.config.js
-
-# Electron builder config
-electron-builder.config.js
-
+# System
+.DS_Store
+Thumbs.db
 ```
